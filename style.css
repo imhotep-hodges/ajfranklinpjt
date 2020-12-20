@@ -13,7 +13,10 @@ body {
   color: black;
 }
 
-h1,
+h1 {
+  color: white;
+}
+
 h2,
 h3,
 h4,
@@ -94,7 +97,7 @@ a:hover {
 }
 
 .overlay-mf {
-  background-color: #0078ff;
+  background-color: #47515e;
 }
 
 .overlay-mf {
@@ -161,7 +164,7 @@ a:hover {
 .line-mf {
   width: 40px;
   height: 5px;
-  background-color: #0078ff;
+  background-color: #0a0b0c;
   margin: 0 auto;
 }
 
@@ -179,8 +182,8 @@ a:hover {
   content: '';
   position: absolute;
   height: 3px;
-  background-color: #0078ff;
-  width: 100px;
+  background-color: #0a0b0c;
+  width: 50px;
   bottom: -12px;
 }
 
@@ -319,8 +322,8 @@ a:hover {
 .back-to-top {
   position: fixed;
   display: none;
-  background: #0078ff;
-  color: #fff;
+  background: silver;
+  color: black;
   width: 44px;
   height: 44px;
   text-align: center;
@@ -335,7 +338,7 @@ a:hover {
 
 .back-to-top i {
   padding-top: 12px;
-  color: #fff;
+  color: black;
 }
 
 @media (max-width: 768px) {
@@ -738,6 +741,14 @@ a:hover {
 
 .about-mf .about-img img {
   margin-left: 10px;
+
+}
+
+.about-img {
+  margin-top: 2rem;
+  margin-right: 1rem;
+  padding-right: 1rem;
+  float: none;
 }
 
 @media (min-width: 767px) {
@@ -1365,7 +1376,7 @@ footer {
   text-align: center;
   color: #fff;
   padding: 25px 0;
-  background: #0062d3;
+  background: #02070c;
 }
 
 footer .copyright {
@@ -1379,3 +1390,9 @@ footer .credits {
 footer .credits a {
   color: #fff;
 }
+
+.typed6 {
+  color: white;
+  font-size: 14px;
+}
+
