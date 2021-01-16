@@ -108,3 +108,7 @@
     border-color: tranparent;
   }
 }
+
+:root {
+  --animate-duration: 20s;
+}
