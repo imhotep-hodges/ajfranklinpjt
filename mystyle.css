@@ -1,4 +1,4 @@
-/* ------------ */
+/* ------ Animations ------ */
 
 
 
@@ -112,3 +112,53 @@
 :root {
   --animate-duration: 20s;
 }
+
+/* --- Media section --- */
+
+
+  iframe {
+  width: 980px;
+  height: 790px;
+
+  }
+
+
+@media screen and (max-width: 1200px) {
+  iframe {
+  width: 835px;
+  height: 655px;
+
+  }
+}
+
+@media screen and (max-width: 992px) {
+  iframe {
+  width: 600px;
+  height: 420px;
+
+  }
+}
+
+  @media screen and (max-width: 768px) {
+    iframe {
+    width: 270px;
+    height: 180px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: auto;
+    padding-right: auto;
+
+    }
+  }
+
+  @media screen and (max-width: 576px) {
+    iframe {
+    width: 270px;
+    height: 180px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: auto;
+    padding-right: auto;
+
+    }
+  }

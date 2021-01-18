@@ -35,7 +35,7 @@ a {
 }
 
 a:hover {
-  color: #0078ff;
+  color: #65696d;
   text-decoration: none;
   transition: all 0.5s ease-in-out;
 }
@@ -45,7 +45,7 @@ a:hover {
 }
 
 .color-a {
-  color: #0078ff;
+  color: #65696d;
 }
 
 .color-d {
@@ -182,11 +182,25 @@ a:hover {
   content: '';
   position: absolute;
   height: 3px;
-  background-color: #0a0b0c;
-  width: 50px;
+  background-color: black;
+  width: 70px;
   bottom: -12px;
 }
+.title-bio {
+  font-size: 2rem;
+  position: relative;
+}
 
+.title-bio:before {
+  content: '';
+  position: absolute;
+  height: 3px;
+  background-color: black;
+  width: 50px;
+  bottom: -12px;
+
+
+}
 /*------/ Box /------*/
 .box-pl2 {
   padding-left: 2rem;
@@ -223,14 +237,14 @@ a:hover {
   border-radius: 50%;
   line-height: 1.4;
   margin: 0 15px 0 0;
-  box-shadow: 0 0 0 3px #0078ff;
+  box-shadow: 0 0 0 3px black;
   transition: all 500ms ease;
 }
 
 .socials .ico-circle:hover {
-  background-color: #0078ff;
-  color: #fff;
-  box-shadow: 0 0 0 3px #cde1f8;
+  background-color: silver;
+  color:black;
+  box-shadow: 0 0 0 3px white;
   transition: all 500ms ease;
 }
 
@@ -246,7 +260,7 @@ a:hover {
 }
 
 .list-ico span {
-  color: #0078ff;
+  color: black;
   margin-right: 10px;
 }
 
@@ -259,7 +273,7 @@ a:hover {
   line-height: 1.55;
   margin: 0 auto;
   text-align: center;
-  box-shadow: 0 0 0 10px #0078ff;
+  box-shadow: 0 0 0 10px silver;
   display: block;
 }
 
@@ -364,8 +378,8 @@ a:hover {
   position: fixed;
   top: calc(50% - 30px);
   left: calc(50% - 30px);
-  border: 6px solid #f2f2f2;
-  border-top: 6px solid #0078ff;
+  border: 6px solid #6b6767;
+  border-top: 6px solid #696669;
   border-radius: 50%;
   width: 60px;
   height: 60px;
@@ -413,15 +427,15 @@ a:hover {
 }
 
 .button:hover {
-  background-color: #0062d3;
+  background-color: #66686b;
   color: #fff;
   transition: all 500ms ease;
 }
 
 .button-a {
-  background-color: #0078ff;
+  background-color: #0a0a0a;
   color: #fff;
-  border-color: #cde1f8;
+  border-color: #3c3e3f;
 }
 
 .button-big {
@@ -797,7 +811,7 @@ a:hover {
   height: 60px;
   width: 60px;
   line-height: 1.8;
-  box-shadow: 0 0 0 10px #cde1f8;
+  box-shadow: 0 0 0 10px #e8e8ee;
 }
 
 .counter-num .counter {
@@ -1076,7 +1090,7 @@ a:hover {
 }
 
 .php-email-form input::focus, .php-email-form textarea::focus {
-  background-color: #0078ff;
+  background-color: #46484b;
 }
 
 .php-email-form input {
@@ -1089,7 +1103,7 @@ a:hover {
 }
 
 .php-email-form button[type="submit"] {
-  background: #0078ff;
+  background: black;
   border: 0;
   padding: 10px 24px;
   color: #fff;
@@ -1097,7 +1111,8 @@ a:hover {
 }
 
 .php-email-form button[type="submit"]:hover {
-  background: #3393ff;
+  background: silver;
+  color: black;
 }
 
 @-webkit-keyframes animate-loading {
