@@ -32,8 +32,8 @@
 .css-typing p:nth-child(2) {
   width: 9.5em;
   opacity: 0;
-  -webkit-animation: type2 2s steps(40, end);
-  animation: type2 2s steps(40, end);
+  -webkit-animation: type2 1.5s steps(40, end);
+  animation: type2 1.5s steps(40, end);
   -webkit-animation-delay: 2s;
   animation-delay: 2s;
   -webkit-animation-fill-mode: forwards;
@@ -110,7 +110,7 @@
 }
 
 :root {
-  --animate-duration: 20s;
+  --animate-duration: 2s;
 }
 
 /* --- Media section --- */
