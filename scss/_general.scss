@@ -250,41 +250,6 @@ a {
   display: block;
 }
 
-/*------/ Owl Carousel /------*/
-.owl-theme {
-  .owl-dots {
-    text-align: center;
-    margin-top: 18px;
-
-    .owl-dot {
-      display: inline-block;
-
-      span {
-        width: 18px;
-        height: 7px;
-        margin: 5px 5px;
-        background: $color-primary-light;
-        border: 0px solid $color-primary-light;
-        display: block;
-        transition: all 0.6s ease-in-out;
-        cursor: pointer;
-      }
-
-      &:hover {
-        span {
-          background-color: $color-primary-light;
-        }
-      }
-
-      &.active {
-        span {
-          background-color: #1B1B1B;
-          width: 25px;
-        }
-      }
-    }
-  }
-}
 
 /*--/ Scrolltop s /--*/
 .scrolltop-mf {

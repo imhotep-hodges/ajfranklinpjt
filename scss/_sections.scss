@@ -82,35 +82,6 @@
   }
 }
 
-/*--------------------------------------------------------------
-# Counter
---------------------------------------------------------------*/
-.counter-box {
-  color: #fff;
-  text-align: center;
-
-  @media (min-width: 577px) {
-    margin-bottom: 1.8rem;
-  }
-}
-
-.counter-ico {
-  margin-bottom: 1rem;
-
-  .ico-circle {
-    height: 60px;
-    width: 60px;
-    line-height: 1.8;
-    box-shadow: 0 0 0 10px $color-primary-light;
-  }
-}
-
-.counter-num {
-  .counter {
-    font-size: 2rem;
-    margin-bottom: 0;
-  }
-}
 
 /*--------------------------------------------------------------
 # Portfolio
@@ -259,60 +230,7 @@
   }
 
 }
-/*--------------------------------------------------------------
-# Testimonials
---------------------------------------------------------------*/
-.testimonials .owl-carousel .owl-item img {
-  width: auto;
-}
 
-.testimonial-box {
-  color: #fff;
-  text-align: center;
-
-  .author-test {
-    margin-top: 1rem;
-
-    img {
-      margin: 0 auto;
-    }
-  }
-
-  .author {
-    color: #fff;
-    text-transform: uppercase;
-    font-weight: 600;
-    margin: 1rem 0;
-    display: block;
-    font-size: 1.4rem;
-  }
-
-  .comit {
-    font-size: 2rem;
-    color: $color-primary;
-    background-color: #fff;
-    width: 52px;
-    height: 52px;
-    display: block;
-    margin: 0 auto;
-    border-radius: 50%;
-    line-height: 1.6;
-  }
-
-  .description {
-    @media (min-width: 768px) {
-      padding: 0 5rem;
-    }
-
-    @media (min-width: 992px) {
-      padding: 0 8rem;
-    }
-
-    @media (min-width: 1200px) {
-      padding: 0 13rem;
-    }
-  }
-}
 
 
 /*--------------------------------------------------------------
