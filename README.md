@@ -1,2 +1,1 @@
-# ajfranklinpjt
-business website
+Official Website for actor, AJ franklin
